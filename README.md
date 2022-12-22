@@ -7,8 +7,93 @@ For [Linux](#linux) and for [Windows](#windows)
 # Linux
 ## input-remapper 
 https://github.com/sezanzeb/input-remapper
+### /home/user/.config/input-remapper/config.json
 ```json
-{}
+{
+    "version": "1.4.1",
+    "autoload": {
+        "AT Translated Set 2 keyboard": "capsl. + jkli = arrows",
+        "Logitech USB Keyboard": "capslock + jkli = arrows",
+        "Ducky Ducky One2 Mini RGB": "CAPSL. + jkli = arrows",
+        "Corsair Corsair K70R Gaming Keyboard": "CAPSL + jkli = arrows",
+        "Keyboard K850 Keyboard": "capsl + jkli = arrows",
+        "Dell KB216 Wired Keyboard": "caps + asdf = arrows",
+        "winkeyless.kr ps2avrGB": "capsl. + jkli = arrows",
+        "Microsoft Microsoft Ergonomic Keyboard": "CAPSL. + jkli = arrows"
+    },
+    "macros": {
+        "keystroke_sleep_ms": 10
+    },
+    "gamepad": {
+        "joystick": {
+            "non_linearity": 4,
+            "pointer_speed": 80,
+            "left_purpose": "none",
+            "right_purpose": "none",
+            "x_scroll_speed": 2,
+            "y_scroll_speed": 0.5
+        }
+    }
+}
+```
+### /home/user/.config/input-remapper/presets/name_of_keyboard/'capsl. + jkli = arrows.json'
+```json
+{
+    "mapping": {
+        "1,58,1": [
+            "disable",
+            "keyboard"
+        ],
+        "1,58,1+1,36,1": [
+            "Left",
+            "keyboard"
+        ],
+        "1,58,1+1,37,1": [
+            "Down",
+            "keyboard"
+        ],
+        "1,58,1+1,38,1": [
+            "Right",
+            "keyboard"
+        ],
+        "1,58,1+1,23,1": [
+            "Up",
+            "keyboard"
+        ],
+        "1,58,1+1,30,1": [
+            "disable",
+            "keyboard"
+        ],
+        "1,58,1+1,30,1+1,23,1": [
+            "mouse(up, 5)",
+            "mouse"
+        ],
+        "1,58,1+1,30,1+1,38,1": [
+            "mouse(right, 5)",
+            "mouse"
+        ],
+        "1,58,1+1,30,1+1,37,1": [
+            "mouse(down, 5)",
+            "mouse"
+        ],
+        "1,58,1+1,30,1+1,36,1": [
+            "mouse(left, 5)",
+            "mouse"
+        ],
+        "1,58,1+1,30,1+1,57,1": [
+            "BTN_LEFT",
+            "mouse"
+        ],
+        "1,58,1+1,30,1+1,40,1": [
+            "wheel(10, down)",
+            "mouse"
+        ],
+        "1,58,1+1,30,1+1,26,1": [
+            "wheel(10, up)",
+            "mouse"
+        ]
+    }
+}
 ```
 ## AutoKey
 [AutoKey](https://github.com/autokey/autokey) needs to be installed for Linux. This can be downloaded within Ubuntu package manager. The scripts can be found [here](linux/autokey).
