@@ -5,6 +5,11 @@ Make use of caps lock, remap arrow keys to { i, j, k, l } and extra stuff.
 For [Linux](#linux) and for [Windows](#windows)
 
 # Linux
+## input-remapper 
+https://github.com/sezanzeb/input-remapper
+```json
+{}
+```
 ## AutoKey
 [AutoKey](https://github.com/autokey/autokey) needs to be installed for Linux. This can be downloaded within Ubuntu package manager. The scripts can be found [here](linux/autokey).
 
