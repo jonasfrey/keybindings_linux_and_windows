@@ -95,6 +95,91 @@ https://github.com/sezanzeb/input-remapper
     }
 }
 ```
+```json
+[
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 58,
+                "origin_hash": "08f6ddf02f4bb39d9c6622ff7a2748e8"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "disable",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 58,
+                "origin_hash": "08f6ddf02f4bb39d9c6622ff7a2748e8"
+            },
+            {
+                "type": 1,
+                "code": 36,
+                "origin_hash": "08f6ddf02f4bb39d9c6622ff7a2748e8"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KP_Left",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 58,
+                "origin_hash": "08f6ddf02f4bb39d9c6622ff7a2748e8"
+            },
+            {
+                "type": 1,
+                "code": 37,
+                "origin_hash": "08f6ddf02f4bb39d9c6622ff7a2748e8"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KP_Down",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 58,
+                "origin_hash": "08f6ddf02f4bb39d9c6622ff7a2748e8"
+            },
+            {
+                "type": 1,
+                "code": 38,
+                "origin_hash": "08f6ddf02f4bb39d9c6622ff7a2748e8"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KP_Right",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 58,
+                "origin_hash": "08f6ddf02f4bb39d9c6622ff7a2748e8"
+            },
+            {
+                "type": 1,
+                "code": 23,
+                "origin_hash": "08f6ddf02f4bb39d9c6622ff7a2748e8"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KP_Up",
+        "mapping_type": "key_macro"
+    }
+]
+
+```
 ## AutoKey
 [AutoKey](https://github.com/autokey/autokey) needs to be installed for Linux. This can be downloaded within Ubuntu package manager. The scripts can be found [here](linux/autokey).
 
